@@ -90,7 +90,21 @@ html, body{
     background-color:rgba(19, 18, 18, 0.541)  ;
     padding: 1%;
     background-blend-mode: darken;
-    say
-    
+   
+}
 
+.InstagramButton a{
+    width: 30vw;
+    height: 10vw;
+    color: rgb(255, 200, 148);
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

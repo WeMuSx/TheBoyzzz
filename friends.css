@@ -23,7 +23,7 @@ html, body{
     
 }
 
-.site span{
+.sitesBar span{
     width: 70vw;
     color: #fff;
     font-size: 3vw;
@@ -54,4 +54,65 @@ html, body{
     text-decoration: none;
     font-family: 'Averia Serif Libre', cursive;
 
+}
+
+.TheBoyzzz span{
+    width: 40vw;
+    color: #fff;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Kevin span{
+    width: 40vw;
+    color: #fff;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.Linus span{
+    width: 40vw;
+    color: #fff;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Alex span{
+    width: 40vw;
+    color: #fff;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

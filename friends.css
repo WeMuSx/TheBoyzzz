@@ -48,11 +48,8 @@ html, body{
 
 .sitesBar a:hover{
 
-    font-size: 3.5vw;
-    padding: 0.25cm;
     color: rgb(255, 0, 0);
     text-decoration: none;
-    font-family: 'Averia Serif Libre', cursive;
 
 }
 
@@ -78,13 +75,13 @@ html, body{
     font-family: arial;
     text-align: center;
     text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.5);
+    background: url("Kevin.png");
     padding: 10px;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
 }
 
 .Linus span{
@@ -94,7 +91,7 @@ html, body{
     font-family: arial;
     text-align: center;
     text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.5);
+    background: url("Linus.png");
     padding: 10px;
     position: absolute;
     top: 50%;
@@ -109,10 +106,52 @@ html, body{
     font-family: arial;
     text-align: center;
     text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.5);
+    background: url("Alex.png");
     padding: 10px;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.Kevin span:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Linus span:hover{ 
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Alex span:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Kevin a{
+    color: rgb(248, 101, 3);
+    text-decoration: none;
+}
+
+.Linus a{
+    color: rgb(214, 101, 36);
+    text-decoration: none;
+}
+
+.Alex a{
+    color: rgb(250, 92, 0);
+    text-decoration: none;
+}
+
+.Kevin a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.Linus a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+.Alex a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
 }

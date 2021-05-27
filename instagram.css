@@ -59,11 +59,8 @@ html, body{
 
 .sitesBar a:hover{
 
-    font-size: 3.5vw;
-    padding: 0.25cm;
     color: rgb(255, 0, 0);
     text-decoration: none;
-    font-family: 'Averia Serif Libre', cursive;
 
 }
 

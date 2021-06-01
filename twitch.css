@@ -50,3 +50,48 @@ html, body{
     text-decoration: underline;
 }
 
+.TwitchLinkTree span{
+    width: 30vw;
+    height: 15vw;
+    color: #fff;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    background:url("Background_Design.png") no-repeat center;
+    background-size: 200%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.TwitchLinkTree span:hover{
+
+    animation-fill-mode: forwards;
+    background-color:rgba(19, 18, 18, 0.541)  ;
+    padding: 1%;
+    background-blend-mode: darken;
+   
+}
+
+.TwitchLinkTree a{
+    width: fit-content;
+    height: fit-content;
+    color: rgb(255, 200, 148);
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.TwitchLinkTree a:hover{
+    color: #fff;
+}

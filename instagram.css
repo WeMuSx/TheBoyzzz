@@ -63,7 +63,7 @@ html, body{
 
 .InstagramButton span{
     width: 30vw;
-    height: 10vw;
+    height: 15vw;
     color: #fff;
     font-size: 3vw;
     font-family: arial;
@@ -89,7 +89,7 @@ html, body{
 
 .InstagramButton a{
     width: 30vw;
-    height: 10vw;
+    height: 15vw;
     color: rgb(255, 200, 148);
     font-size: 3vw;
     font-family: arial;
@@ -98,7 +98,11 @@ html, body{
     text-decoration: none;
     padding: 10px;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.InstagramButton a:hover{
+    color: #fff;
 }

@@ -16,7 +16,7 @@ html, body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
 }
 
 .sitesBar span{
@@ -44,22 +44,9 @@ html, body{
     text-decoration: underline;
 }
 
-.TheBoyzzz span{
-    width: 40vw;
-    color: #fff;
-    font-size: 3vw;
-    font-family: arial;
-    text-align: center;
-    text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .Kevin span{
+    height: 10vw;
     width: 40vw;
     color: #fff;
     font-size: 3vw;
@@ -68,13 +55,14 @@ html, body{
     text-transform: uppercase;
     background: url("Kevin.png");
     padding: 10px;
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .Linus span{
+    height: 10vw;
     width: 40vw;
     color: #fff;
     font-size: 3vw;
@@ -83,13 +71,14 @@ html, body{
     text-transform: uppercase;
     background: url("Linus.png");
     padding: 10px;
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .Alex span{
+    height: 10vw;
     width: 40vw;
     color: #fff;
     font-size: 3vw;
@@ -98,38 +87,92 @@ html, body{
     text-transform: uppercase;
     background: url("Alex.png");
     padding: 10px;
-    position: absolute;
-    top: 60%;
+    position: fixed;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.Kevin span:hover{
+    animation-fill-mode: forwards;
+    background-color:rgba(19, 18, 18, 0.541)  ;
+    padding: 1%;
+    background-blend-mode: darken;
+}
+
+.Linus span:hover{
+    animation-fill-mode: forwards;
+    background-color:rgba(19, 18, 18, 0.541)  ;
+    padding: 1%;
+    background-blend-mode: darken;
+}
+
+.Alex span:hover{
+    animation-fill-mode: forwards;
+    background-color:rgba(19, 18, 18, 0.541)  ;
+    padding: 1%;
+    background-blend-mode: darken;
+}
+
 .Kevin a{
+    height:10vw;
+    width: 40vw;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: rgb(248, 101, 3);
     text-decoration: none;
 }
 
 .Linus a{
-    color: rgb(214, 101, 36);
+    height:10vw;
+    width: 40vw;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(248, 101, 3);
     text-decoration: none;
 }
 
 .Alex a{
-    color: rgb(250, 92, 0);
+    height:10vw;
+    width: 40vw;
+    font-size: 3vw;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(248, 101, 3);
     text-decoration: none;
 }
 
 .Kevin a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .Linus a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .Alex a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }

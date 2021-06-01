@@ -47,8 +47,5 @@ html, body{
 }
 
 .sitesBar a:hover{
-
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-
+    text-decoration: underline;
 }

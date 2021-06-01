@@ -10,17 +10,13 @@ html, body{
     height: 100%;
 }
 
-.site{
-    
+.site{  
     height: 100%;
     background: url("untitled5.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-    
-    
-    
+    background-attachment: fixed; 
 }
 
 .sitesBar span{
@@ -38,19 +34,14 @@ html, body{
     transform: translate(-50%, -50%);
 }
 
-.sitesBar a{
-    
+.sitesBar a{  
     padding: 0.1cm;
     color: #fff;
     text-decoration: none;
-
 }
 
 .sitesBar a:hover{
-
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-
+    text-decoration: underline;
 }
 
 .TheBoyzzz span{
@@ -81,7 +72,6 @@ html, body{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .Linus span{
@@ -112,18 +102,6 @@ html, body{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.Kevin span:hover{
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.Linus span:hover{ 
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.Alex span:hover{
-    color: rgba(0, 0, 0, 0.5);
 }
 
 .Kevin a{

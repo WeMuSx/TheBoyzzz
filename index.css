@@ -61,7 +61,7 @@ html, body{
     background:url("Jesus Meme2.jpg") no-repeat, center;
     background-size: 100%;
     padding: 10px;
-    position: fixed;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

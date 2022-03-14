@@ -53,7 +53,7 @@ html, body{
     font-family: arial;
     text-align: center;
     text-transform: uppercase;
-    background: url("Kevin.png");
+    background: url("Kevin.png") no-repeat center;
     padding: 10px;
     position: absolute;
     top: 40%;
@@ -69,7 +69,7 @@ html, body{
     font-family: arial;
     text-align: center;
     text-transform: uppercase;
-    background: url("Linus.png");
+    background: url("Linus.png") no-repeat center;
     padding: 10px;
     position: absolute ;
     top: 60%;
@@ -85,7 +85,7 @@ html, body{
     font-family: arial;
     text-align: center;
     text-transform: uppercase;
-    background: url("Alex.png");
+    background: url("Alex.png") no-repeat center;
     padding: 10px;
     position: absolute;
     top: 80%;

@@ -16,7 +16,7 @@ html, body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: scroll; 
+    background-attachment: fixed; 
 }
 
 .sitesBar span{
@@ -55,7 +55,7 @@ html, body{
     text-transform: uppercase;
     background: url("Kevin.png");
     padding: 10px;
-    position: fixed;
+    position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -71,7 +71,7 @@ html, body{
     text-transform: uppercase;
     background: url("Linus.png");
     padding: 10px;
-    position: fixed;
+    position: absolute ;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -87,7 +87,7 @@ html, body{
     text-transform: uppercase;
     background: url("Alex.png");
     padding: 10px;
-    position: fixed;
+    position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -122,7 +122,7 @@ html, body{
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    position: fixed;
+    position: absolute; 
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -138,7 +138,7 @@ html, body{
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -154,7 +154,7 @@ html, body{
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
